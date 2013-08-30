@@ -1,0 +1,579 @@
+TQuiz
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/Quiz.app/ResourceRules.plist
+cProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz normal armv7s
+cLd /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz normal armv7
+cCreateUniversalBinary /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz normal armv7\ armv7s
+cGenerateDSYMFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz
+cCopyStringsFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings Quiz/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets
+cProcessInfoPlistFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Info.plist /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist
+cProcessProductPackaging /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision
+cTouch /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+cProcessProductPackaging /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent
+cCodeSign /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+cValidate /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000520036EB0000000000000110
+t1375745771
+s272
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c000000005200DC710000000000000094
+t1375788145
+s148
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c000000005200DC710000000000000096
+t1375788145
+s150
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c000000005200DC71000000000000036B
+t1375788145
+s875
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005200DC7200000000000001A0
+t1375788146
+s416
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005200DC7500000000003023A0
+t1375788149
+s3154848
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005200DC7700000000006AAA70
+t1375788151
+s6990448
+
+N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005200DC7D00000000017FB7B0
+t1375788157
+s25147312
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard
+c00000000521555F7000000000000170C
+t1377129975
+s5900
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets
+c00000000521550E60000000000000088
+t1377128678
+s136
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist
+c00000000521550E600000000000004C3
+t1377128678
+s1219
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch
+c00000000521550E60000000000000158
+t1377128678
+s344
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m
+c00000000521550E600000000000007E6
+t1377128678
+s2022
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m
+c0000000052155A400000000000000568
+t1377131072
+s1384
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/en.lproj/InfoPlist.strings
+c00000000521550E6000000000000002D
+t1377128678
+s45
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m
+c00000000521550E6000000000000015C
+t1377128678
+s348
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz
+t1377211342
+s54992
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz.LinkFileList
+c00000000521693CE0000000000000172
+t1377211342
+s370
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o
+t1377211342
+s65248
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o
+t1377211342
+s48732
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o
+t1377211342
+s3792
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz
+t1377211342
+s54996
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz.LinkFileList
+c00000000521693CE0000000000000175
+t1377211342
+s373
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o
+t1377211342
+s65248
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o
+t1377211342
+s48732
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o
+t1377211342
+s3792
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent
+t1377211343
+s396
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_dependencies.txt
+t1377211342
+s331
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_generated_info.plist
+t1377211342
+s525
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+t1377211343
+s374
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM
+t2
+s0
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Base.lproj/Main.storyboardc
+t1377211343
+s170
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Info.plist
+t1377211343
+s1282
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/PkgInfo
+t1377211343
+s8
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz
+t1377211342
+s136916
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/ResourceRules.plist
+t1377211342
+s150
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision
+t1377211343
+s22832
+
+N/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings
+t1377211342
+s42
+
+N/Users/vzheng/Library/MobileDevice/Provisioning Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision
+c00000000521681DD0000000000005930
+t1377206749
+s22832
+
+N/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch
+t1377211342
+s86880
+
+N/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch
+t1377211342
+s86884
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies499e074ecbc6b741^e013334ecbc6b741^---0#1#1#--18"Check dependencies36"3D14A327-6710-40A7-AD62-6E91628C5871-
+
+CCodeSign /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+s398904143.068217
+e398904143.301313
+r1
+xCodeSign
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"CodeSign build/Release-iphoneos/Quiz.app40"CodeSign build/Release-iphoneos/Quiz.app8d98114fcbc6b741^3a244d4fcbc6b741^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/0000000000000000^1065"CodeSign build/Release-iphoneos/Quiz.app    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv CODESIGN_ALLOCATE /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    Using code signing identity "iPhone Developer: Victoria Zheng (53XKB6HRT9)" and provisioning profile "iOS Team Provisioning Profile: *" (62DC41E3-8B71-4166-A167-9C1B38F9D26B)    codesign --force --sign D36651BE27D3CEEE98E076EB35EFFBC0DFB4700C --resource-rules=/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/ResourceRules.plist --entitlements /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app36"C3644010-6689-44A6-9AB0-FED5348D56B4-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileAssetCatalog /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets
+s398904142.519347
+e398904142.842187
+r1
+xCompileAssetCatalog
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Assets.car
+o/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/LaunchImage-700-568h@2x~iphone.png
+o/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CompileAssetCatalog build/Release-iphoneos/Quiz.app Quiz/Images.xcassets72"CompileAssetCatalog build/Release-iphoneos/Quiz.app Quiz/Images.xcassetsaa0a854ecbc6b741^b2a1d74ecbc6b741^-359"/* com.apple.actool.compilation-results *//Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Assets.car/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/LaunchImage-700-568h@2x~iphone.png/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets/0000000000000000^1072"CompileAssetCatalog build/Release-iphoneos/Quiz.app Quiz/Images.xcassets    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --compile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Images.xcassets36"4E57B62D-1DCC-49D0-A794-417344BBAF2A-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.264616
+e398904142.371034
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m184"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o Quiz/QuizAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8be0434ecbc6b741^48fc5e4ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m0000000000000000^3549"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o Quiz/QuizAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7 -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o36"12199040-D2B0-4D01-98A3-337322D8CA1D-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.264852
+e398904142.372566
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m190"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o Quiz/QuizViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler52ed434ecbc6b741^6b605f4ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m0000000000000000^3567"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o Quiz/QuizViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7 -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o36"9688A728-D62E-4EA2-BDC9-7DE51B16AEB5-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.264615
+e398904142.314487
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m162"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o Quiz/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd7de434ecbc6b741^bd8a504ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m0000000000000000^3483"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o Quiz/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7 -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o36"DAC33EF2-C483-47F8-A430-A0388B64D135-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.316062
+e398904142.414857
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m186"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o Quiz/QuizAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6b11514ecbc6b741^76346a4ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m0000000000000000^3556"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o Quiz/QuizAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7s -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o36"F43B9470-9788-4F21-A0A2-1E5C56F7C089-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.316891
+e398904142.410068
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m192"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o Quiz/QuizViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler8d47514ecbc6b741^59fa684ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m0000000000000000^3574"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o Quiz/QuizViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7s -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizViewController.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o36"A07E19BE-B8FE-404A-B0C7-2873A35EF5B3-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.264867
+e398904142.314484
+r1
+xCompileC
+xbuild/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/QuizAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m164"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o Quiz/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilereeec434ecbc6b741^1b85504ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m0000000000000000^3490"CompileC build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o Quiz/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7s -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -include /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch -MMD -MT dependencies -MF /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.dia -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/main.m -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o36"76470CBF-68E1-43DF-B436-853347DDCB74-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCompileStoryboard /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard
+s398904142.519337
+e398904143.024778
+r1
+xCompileStoryboard
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CompileStoryboard Quiz/Base.lproj/Main.storyboard49"CompileStoryboard Quiz/Base.lproj/Main.storyboard030a854ecbc6b741^0c58064fcbc6b741^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard0000000000000000^885"CompileStoryboard Quiz/Base.lproj/Main.storyboard    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode5-DP5.app/Contents/Developer/usr/bin/..    /Applications/Xcode5-DP5.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Base.lproj/Main.storyboardc /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Base.lproj/Main.storyboard36"9D4A4C5F-C69E-4564-87D7-A911F32170DC-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCopyStringsFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings Quiz/en.lproj/InfoPlist.strings
+s398904142.519335
+e398904142.524533
+r1
+xCopyStringsFile
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings
+xQuiz/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Quiz/en.lproj/InfoPlist.strings106"CopyStringsFile build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings Quiz/en.lproj/InfoPlist.strings340e854ecbc6b741^4148864ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/en.lproj/InfoPlist.strings0000000000000000^654"CopyStringsFile build/Release-iphoneos/Quiz.app/en.lproj/InfoPlist.strings Quiz/en.lproj/InfoPlist.strings    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/en.lproj -- Quiz/en.lproj/InfoPlist.strings36"25972A26-14B8-452C-AF26-D9BE2033F318-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCpResource /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/Quiz.app/ResourceRules.plist
+s398904142.203740
+e398904142.206534
+r1
+xCpResource
+x/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/Quiz.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Release-iphoneos/Quiz.app/ResourceRules.plist189"CpResource /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/Quiz.app/ResourceRules.plistfa46344ecbc6b741^7adf344ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/ResourceRules.plist00a081d758fcdf42^973"CpResource /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/Quiz.app/ResourceRules.plist    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app36"AA80E610-50D6-44F3-86F5-948EB1E38B48-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CCreateUniversalBinary /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz normal armv7\ armv7s
+s398904142.473288
+e398904142.481849
+r1
+xCreateUniversalBinary
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz
+xnormal
+xarmv7 armv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Create universal binary /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz79"CreateUniversalBinary build/Release-iphoneos/Quiz.app/Quiz normal armv7\ armv7s3544794ecbc6b741^fb5a7b4ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz0038e4bddcffdf42^750"CreateUniversalBinary build/Release-iphoneos/Quiz.app/Quiz normal armv7\ armv7s    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    lipo -create /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz -output /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz36"2665637C-4BDF-4A75-8FC5-A04EBE62AF04-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CGenerateDSYMFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz
+s398904142.490120
+e398904142.511194
+r1
+xGenerateDSYMFile
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generate /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM90"GenerateDSYMFile build/Release-iphoneos/Quiz.app.dSYM build/Release-iphoneos/Quiz.app/Quiz158d7d4ecbc6b741^6add824ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM0038e4bddcffdf42^696"GenerateDSYMFile build/Release-iphoneos/Quiz.app.dSYM build/Release-iphoneos/Quiz.app/Quiz    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Quiz -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app.dSYM36"24B7A631-721D-436C-801E-74B90C24C6FD-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CLd /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz normal armv7
+s398904142.423459
+e398904142.464190
+r1
+xLd
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz
+xnormal
+xarmv7
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz.LinkFileList
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/main.o
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizAppDelegate.o
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/QuizViewController.o
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz86"Ld build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz normal armv75e856c4ecbc6b741^6bd5764ecbc6b741^---0#0#1#--1386"Ld build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz normal armv7    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -filelist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz_dependency_info.dat -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7/Quiz36"381B8067-2D91-49F8-96DF-B99440AB91D7-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CLd /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz normal armv7s
+s398904142.423436
+e398904142.460665
+r1
+xLd
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz
+xnormal
+xarmv7s
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz.LinkFileList
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/main.o
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizAppDelegate.o
+d/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/QuizViewController.o
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz88"Ld build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz normal armv7sfd876c4ecbc6b741^e9ef754ecbc6b741^---0#0#1#--1392"Ld build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz normal armv7s    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos -filelist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz_dependency_info.dat -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Objects-normal/armv7s/Quiz36"C66BDED9-7B9F-4E0D-9491-B08FA8DD6C08-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CProcessInfoPlistFile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Info.plist /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist
+s398904143.032891
+e398904143.036326
+r1
+xProcessInfoPlistFile
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Info.plist
+x/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Process /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist84"ProcessInfoPlistFile build/Release-iphoneos/Quiz.app/Info.plist Quiz/Quiz-Info.plist4982084fcbc6b741^ec4c094fcbc6b741^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist0000000000000000^1010"ProcessInfoPlistFile build/Release-iphoneos/Quiz.app/Info.plist Quiz/Quiz-Info.plist    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    builtin-infoPlistUtility /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Info.plist -genpkginfo /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/ResourceRules.plist -additionalcontentfile /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/assetcatalog_generated_info.plist -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/Info.plist36"D9DF6FD9-19FF-43B3-9F64-7CEF301048C3-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.217935
+e398904142.255963
+r1
+xProcessPCH
+x/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch
+xQuiz/Quiz-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Quiz/Quiz-Prefix.pch280"ProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler07eb374ecbc6b741^828f414ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch0000000000000000^3623"ProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7s -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos --serialize-diagnostics /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.d -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch -o /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-emosfjmdddudozfgtvaviqiccexl/Quiz-Prefix.pch.pch36"F6A633C0-1C7A-428F-A9C7-43E5531D801B-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398904142.216594
+e398904142.255928
+r1
+xProcessPCH
+x/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch
+xQuiz/Quiz-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Quiz/Quiz-Prefix.pch279"ProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4697374ecbc6b741^6f84414ecbc6b741^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch0000000000000000^3620"ProcessPCH /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch Quiz/Quiz-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-generated-files.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-own-target-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-all-target-headers.hmap -iquote /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz-project-headers.hmap -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources/armv7 -I/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/DerivedSources -F/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos --serialize-diagnostics /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.d -c /Users/vzheng/Documents/Practice/iOS/Quiz/Quiz/Quiz-Prefix.pch -o /var/folders/mk/pv1f0shx22v4d0347f_56dm0k_vc5r/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Quiz-Prefix-fohleojxsijfpcepgmaubttmkexc/Quiz-Prefix.pch.pch36"46E52B09-14B8-448D-8E7E-A0C7F6EF5083-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CProcessProductPackaging /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent
+s398904143.057006
+e398904143.060033
+r1
+xProcessProductPackaging
+x/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"ProcessProductPackaging /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent205"ProcessProductPackaging /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent71ad0e4fcbc6b741^d95e0f4fcbc6b741^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent0038e4bddcffdf42^834"ProcessProductPackaging /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    builtin-productPackagingUtility /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Quiz.build/Release-iphoneos/Quiz.build/Quiz.xcent36"0C8919D3-FFAA-4AB5-B10C-A447400C13FD-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CProcessProductPackaging /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision
+s398904143.044164
+e398904143.046737
+r1
+xProcessProductPackaging
+x/Users/vzheng/Library/MobileDevice/Provisioning Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection191"ProcessProductPackaging /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision build/Release-iphoneos/Quiz.app/embedded.mobileprovision191"ProcessProductPackaging /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision build/Release-iphoneos/Quiz.app/embedded.mobileprovision99610b4fcbc6b741^7bf70b4fcbc6b741^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision0038e4bddcffdf42^780"ProcessProductPackaging /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision build/Release-iphoneos/Quiz.app/embedded.mobileprovision    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    builtin-productPackagingUtility /Users/vzheng/Library/MobileDevice/Provisioning\ Profiles/62DC41E3-8B71-4166-A167-9C1B38F9D26B.mobileprovision -o /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/embedded.mobileprovision36"35124948-37A3-46C7-852A-1FB9E6238EB8-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
+CTouch /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+r0
+
+CValidate /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+s398904143.308966
+e398904143.783691
+r1
+xValidate
+x/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Validate build/Release-iphoneos/Quiz.app40"Validate build/Release-iphoneos/Quiz.app66334f4fcbc6b741^d89fc84fcbc6b741^-258"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57398904143#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#1#-19%DVTDocumentLocation4@90"file://localhost/Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app/0000000000000000^622"Validate build/Release-iphoneos/Quiz.app    cd /Users/vzheng/Documents/Practice/iOS/Quiz    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Users/vzheng/Documents/oclint/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/vzheng/.rvm/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/vzheng/Documents/Practice/iOS/Quiz/build/Release-iphoneos/Quiz.app36"41C2DD5C-F315-4B21-8BB0-436E8A1B8754-
+b188AE2E5-4A0D-48E5-BED9-A21FE008C4CF
+
