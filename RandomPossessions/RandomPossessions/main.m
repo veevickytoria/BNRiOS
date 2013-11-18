@@ -14,18 +14,31 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSMutableArray *items = [[NSMutableArray alloc] init];
+//        NSMutableArray *items = [[NSMutableArray alloc] init];
         
-        for (int i = 0; i < 10; i++) {
-            BNRItem *p = [BNRItem randomItem];
-            [items addObject:p];
-        }
+//        for (int i = 0; i < 10; i++) {
+//            BNRItem *p = [BNRItem randomItem];
+//            [items addObject:p];
+//        }
+//        
+//        for (BNRItem* item in items) {
+//            NSLog(@"%@", item);
+//        }
+        BNRItem *backpack = [[BNRItem alloc] init];
+        [backpack setItemName:@"backpack"];
+//        [items addObject:backpack];
         
-        for (BNRItem* item in items) {
-            NSLog(@"%@", item);
-        }
+        BNRItem *calculator = [[BNRItem alloc] init];
+        [calculator setItemName:@"calculator"];
+//        [items addObject:calculator];
         
-        items = nil;
+        [backpack setContainedItem:calculator];
+        
+//        NSLog(@"Setting items to nil...");
+//        items = nil;
+        backpack = nil;
+        NSLog(@"COntainer:%@", [calculator container]);
+        calculator = nil;
         
     }
     return 0;
